@@ -4,33 +4,21 @@ Some fields to help insert fields on panel using snippets from sublime text
 
 ### Todo
 
-- [ ] Pallet Color
-- [ ] Background
-- [ ] Border
-- [ ] Button Set
-- [ ] Checkbox
-- [ ] Color
-- [ ] Color Gradient
-- [ ] Color RGBA
-- [ ] Date
-- [ ] Dimensions
-- [ ] Divide
-- [ ] Gallery
-- [ ] Image Select
-- [ ] Link Color
-- [ ] Multi Text
-- [ ] Password
-- [ ] Radio
-- [ ] Raw
-- [ ] Select Image
-- [ ] Slider
-- [ ] Slides
-- [ ] Sortable
-- [ ] Sorter
-- [ ] Spacing
-- [ ] Spinner
-- [ ] Typograhpy
-
+----------------------------|--------------------
+- [ ] Pallet Color          | - [ ] Link Color
+- [ ] Background            | - [ ] Multi Text
+- [ ] Border                | - [ ] Password
+- [ ] Button Set            | - [ ] Radio
+- [ ] Checkbox              | - [ ] Raw
+- [ ] Color                 | - [ ] Select Image
+- [ ] Color Gradient        | - [ ] Slider
+- [ ] Color RGBA            | - [ ] Slides
+- [ ] Date                  | - [ ] Sortable
+- [ ] Dimensions            | - [ ] Sorter
+- [ ] Divide                | - [ ] Spacing
+- [ ] Gallery               | - [ ] Spinner
+- [ ] Image Select          | - [ ] Typograhpy
+----------------------------|--------------------
 
 ### List avaiable snippets
 
