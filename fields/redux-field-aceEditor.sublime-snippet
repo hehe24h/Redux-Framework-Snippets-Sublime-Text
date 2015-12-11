@@ -9,7 +9,7 @@ array(
     'mode'     => '${4: css, htmlm, javascript, json, less, markdown, mysql, php, plain_text, sass, scss, text, xml}',
     'theme'    => 'monokai',
     'desc'     => '${5:Description Field}',
-    'default'  => ''
+    'default'  => '',
 ),
 ]]></content>
     <tabTrigger>redux-field-aceEditor</tabTrigger>
