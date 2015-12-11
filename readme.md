@@ -43,3 +43,5 @@ Some fields to help insert fields on panel using snippets from sublime text
 - Switch
 - Text
 - Textarea
+
+#### Feel free to contribute :)
