@@ -1,18 +1,14 @@
 <snippet>
     <content><![CDATA[
+/* ${1:Title Field} */
 array(
-    'id'    => '${2:id_field}',
-    'type'  => 'info',
-    'title' => __('${1:title}', 'foxtemas_theme'),
-    'style' => '${4:normal info warning success critical or custom}',
-    'notice' => ${5:true},
-    'desc'  => __('${3:description}', 'foxtemas_theme'),
+    'id'     => '${2:id_field}',
+    'type'   => 'info',
+    'title'  => __('${1:Title Field}', '${5:text_domain}'),
+    'style'  => '${3:normal, info, warning, success, critical, custom}',
+    'notice' => ${4:true},
 ),
 ]]></content>
     <tabTrigger>redux-field-info</tabTrigger>
     <scope>source.php</scope>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>hello</tabTrigger> -->
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
 </snippet>

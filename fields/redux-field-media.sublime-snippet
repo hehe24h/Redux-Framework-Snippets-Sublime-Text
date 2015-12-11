@@ -1,15 +1,14 @@
 <snippet>
     <content><![CDATA[
-/* ${1:title} */
+/* ${1:Title Field} */
 array(
-    'id'       => '${2:id}',
+    'id'       => '${2:id_field}',
     'type'     => 'media',
     'url'      => true,
-    'title'    => __('${1:title}', 'foxtemas_theme'),
-    'desc'     => __('${3:desc}', 'foxtemas_theme'),
-    'subtitle' => __('${4:subtitle}', 'foxtemas_theme'),
-    'readonly' => ${5:false},
-    'preview' => ${6:true},
+    'title'    => __('${1:Title Field}', '${6:text_domain}'),
+    'subtitle' => __('${3:Subtitle Field}', '${6:text_domain}'),
+    'readonly' => ${4:false},
+    'preview'  => ${5:true},
     'default'  => array(
         'url'=>''
     ),

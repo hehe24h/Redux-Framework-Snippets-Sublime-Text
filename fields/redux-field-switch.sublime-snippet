@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-/* ${1: nome_field} */
+/* ${1:Title Field} */
 array(
     'id'       => '${2:id_field}',
     'type'     => 'switch',
-    'title'    => __('${1: nome_field}', 'foxtemas_theme'),
-    'subtitle' => __('${3: descricao_field}', 'foxtemas_theme'),
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${3:Subtitle Field}', '${3:text_domain}'),
     'default'  => true,
     'on'       => 'On',
     'off'      => 'Off',
@@ -13,8 +13,4 @@ array(
 ]]></content>
     <tabTrigger>redux-field-switch</tabTrigger>
     <scope>source.php</scope>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>hello</tabTrigger> -->
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
 </snippet>

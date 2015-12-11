@@ -1,30 +1,25 @@
 <snippet>
     <content><![CDATA[
-/* ${1:nome_field} */
+/* ${1:Title Field} */
 array(
-    'id'=>'${2:field_id}',
-    'type' => 'textarea',
-    'title' => __('${1:nome_field}', 'foxtemas_theme'),
-    'subtitle' => __('${3:subtitle}', 'foxtemas_theme'),
-    'desc' => __('${4:description}', 'foxtemas_theme'),
-    'validate' => 'html_custom',
-    'default' => '',
-    'rows' => ${5:num_rows},
+    'id'           =>'${2:id_field}',
+    'type'         => 'textarea',
+    'title'        => __('${1:Title Field}', '${6:text_domain}'),
+    'subtitle'     => __('${3:Subtitle Field}', '${6:text_domain}'),
+    'validate'     => '${4:html, no_html, css, js, color, colorrgba, email, url, numeric, comma_numeric, no_special_chars, unique_slug}',
+    'default'      => '',
+    'rows'         => 3,
     'allowed_html' => array(
         'a' => array(
-            'href' => array(),
+            'href'  => array(),
             'title' => array()
         ),
-        'br' => array(),
-        'em' => array(),
+        'br'     => array(),
+        'em'     => array(),
         'strong' => array()
     ),
 ),
 ]]></content>
     <tabTrigger>redux-field-textarea</tabTrigger>
     <scope>source.php</scope>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>hello</tabTrigger> -->
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
 </snippet>

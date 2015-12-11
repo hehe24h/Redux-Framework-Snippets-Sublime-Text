@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-/* ${1: name field} */
+/* ${1:Title Field} */
 array(
-    'id'       => '${2:field id}',
+    'id'       => '${2:id_field}',
     'type'     => 'select',
-    'title'    => __('${1: name field}', 'foxtemas_theme'),
-    'subtitle' => __('${3:sub title}', 'foxtemas_theme'),
+    'title'    => __('${1:Title Field}', '${5:text_domain}'),
+    'subtitle' => __('${3:Subtitle Field}', '${5:text_domain}'),
     // Must provide key => value pairs for select options
     'options'  => array(),
-    'data' => '${4:category categories menu menus menu_location menu_locations page pages post posts post_type post_types tag tags taxonomy taxonomies roles sidebar sidebars capabilities}',
+    'data'     => '${4:category, categories, menu, menus, menu_location, menu_locations, page, pages, post, posts, post_type, post_types, tag, tags, taxonomy, taxonomies, roles, sidebar, sidebars, capabilities}',
     'default'  => '',
 ),
 ]]></content>
