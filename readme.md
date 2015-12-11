@@ -14,7 +14,6 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [ ] Color RGBA
 - [ ] Date
 - [ ] Dimensions
-- [ ] Divide
 - [ ] Gallery
 - [ ] Image Select
 - [ ] Link Color
