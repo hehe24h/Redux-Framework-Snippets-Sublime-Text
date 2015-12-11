@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:title} */
+array(
+    'id'       => '${2:id}',
+    'type'     => 'media',
+    'url'      => true,
+    'title'    => __('${1:title}', 'foxtemas_theme'),
+    'desc'     => __('${3:desc}', 'foxtemas_theme'),
+    'subtitle' => __('${4:subtitle}', 'foxtemas_theme'),
+    'readonly' => ${5:false},
+    'preview' => ${6:true},
+    'default'  => array(
+        'url'=>''
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-media</tabTrigger>
+    <scope>source.php</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

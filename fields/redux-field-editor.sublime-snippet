@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:title} */
+array(
+    'id'               => '${2:id}',
+    'type'             => 'editor',
+    'title'            => __('${1:title}', 'foxtemas_theme'),
+    'subtitle'         => __('${2:subtitle}', 'foxtemas_theme'),
+    'default'          => '${3:default}',
+    'args'   => array(
+        'teeny'            => ${4:false},
+        'textarea_rows'    => 5,
+    )
+),
+]]></content>
+    <tabTrigger>redux-field-editor</tabTrigger>
+    <scope>source.php</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

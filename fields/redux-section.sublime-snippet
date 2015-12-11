@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Seção ${1:seção nome}
+ * Opções para seção ${1:seção nome}
+ */
+Redux::setSection( \$opt_name, array(
+    'title'      => __( '${1:seção nome}', 'foxtemas_theme' ),
+    'desc'       => __( '${2:descricao}', 'foxtemas_theme' ),
+    'id'         => '${3:id_section}',
+    'icon'      => '${4:icone}',
+    'subsection' => ${5:true or false},
+    'fields'     => array(
+
+    ),
+));
+]]></content>
+    <tabTrigger>redux-section</tabTrigger>
+    <scope>source.php</scope>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
