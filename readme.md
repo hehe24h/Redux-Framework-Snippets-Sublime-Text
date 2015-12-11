@@ -32,11 +32,14 @@ Some fields to help insert fields on panel using snippets from sublime text
 
 ### List avaiable snippets
 
-- Section 
 - ACE Editor
+- Divide
 - Editor
 - Info
 - Media
+- Raw
+- Required
+- Section 
 - Select
 - Switch
 - Text
