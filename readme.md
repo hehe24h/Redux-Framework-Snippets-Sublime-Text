@@ -1,4 +1,4 @@
-## Redux Framework Snippets Sublime Text 3
+## Redux Framework Snippets Sublime Text
 
 Some fields to help insert fields on panel using snippets from sublime text
 
