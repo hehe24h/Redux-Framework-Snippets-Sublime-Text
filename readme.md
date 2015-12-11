@@ -20,7 +20,6 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [ ] Multi Text
 - [ ] Password
 - [ ] Radio
-- [ ] Raw
 - [ ] Select Image
 - [ ] Slider
 - [ ] Slides
