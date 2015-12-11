@@ -2,6 +2,10 @@
 
 Some fields to help insert fields on panel using snippets from sublime text
 
+<a href="https://wordpress.org/plugins/redux-framework/" target="_blank">
+    <img src="http://i.imgur.com/1r0c5z3.png">
+</a>
+
 ### Todo
 
 - [ ] Pallet Color
