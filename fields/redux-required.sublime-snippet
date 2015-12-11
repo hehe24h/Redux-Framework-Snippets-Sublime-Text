@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+'required' => array('${1:id_field}','${2:equals}','${3:value}'),
+]]></content>
+    <tabTrigger>redux-required</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

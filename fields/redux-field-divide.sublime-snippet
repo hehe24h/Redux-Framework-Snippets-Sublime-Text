@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+array(
+    'id'   =>'${1:id_divide}',
+    'desc' => __('${2:Description Field}', '${3:text_domain}'),
+    'type' => 'divide',
+),
+]]></content>
+    <tabTrigger>redux-field-divide</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
