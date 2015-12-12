@@ -4,9 +4,9 @@
 array(
     'id'       => '${1:id_field}',
     'type'     => 'ace_editor',
-    'title'    => __('${1:Title Field}', '${5:text_domain}'),
-    'subtitle' => __('${3:Subtitle Field}', '${5:text_domain}'),
-    'mode'     => '${4: css, htmlm, javascript, json, less, markdown, mysql, php, plain_text, sass, scss, text, xml}',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'mode'     => '${5: css, htmlm, javascript, json, less, markdown, mysql, php, plain_text, sass, scss, text, xml}',
     'theme'    => 'monokai',
     'default'  => '',
 ),

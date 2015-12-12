@@ -4,11 +4,11 @@
  * Section ${1:Title Section}
  */
 Redux::setSection( \$opt_name, array(
-    'title'      => __( '${1:Title Section}', '${6:text_domain}' ),
-    'desc'       => __( '${2:Desription Section}', '${6:text_domain}' ),
-    'id'         => '${3:id_section}',
-    'icon'       => '${4:icon_section}',
-    'subsection' => ${5:false},
+    'title'      => __( '${1:Title Section}', '${3:text_domain}'),
+    'desc'       => __( '${2:Desription Section}', '${3:text_domain}'),
+    'id'         => '${4:id_section}',
+    'icon'       => '${5:icon_section}',
+    'subsection' => ${6:false},
     'fields'     => array(
         /**
          * All Fields going to here

@@ -4,9 +4,9 @@
 array(
     'id'       => '${2:id_field}',
     'type'     => 'raw',
-    'title'    => __('${1:Title Field}', '${5:text_domain}'),
-    'subtitle' => __('${3:Subtitle Field}', '${5:text_domain}'),
-    'content'  => ${4:file_get_contents(dirname(__FILE__) . '/myfile.txt')},
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'content'  => ${5:file_get_contents(dirname(__FILE__) . '/myfile.txt')},
 )
 ]]></content>
     <tabTrigger>redux-field-raw</tabTrigger>

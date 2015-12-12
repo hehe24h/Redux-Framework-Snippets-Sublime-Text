@@ -4,9 +4,9 @@
 array(
     'id'     => '${2:id_field}',
     'type'   => 'info',
-    'title'  => __('${1:Title Field}', '${5:text_domain}'),
-    'style'  => '${3:normal, info, warning, success, critical, custom}',
-    'notice' => ${4:true},
+    'title'  => __('${1:Title Field}', '${3:text_domain}'),
+    'style'  => '${4:normal, info, warning, success, critical, custom}',
+    'notice' => ${5:true},
 ),
 ]]></content>
     <tabTrigger>redux-field-info</tabTrigger>

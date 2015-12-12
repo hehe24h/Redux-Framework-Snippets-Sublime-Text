@@ -4,10 +4,10 @@
 array(
     'id'       => '${2:id_field}',
     'type'     => 'text',
-    'title'    => __('${1:Title Field}', '${6:text_domain}'),
-    'subtitle' => __('${3:Subtitle Field}', '${6:text_domain}'),
-    'validate' => '${4:html, no_html, css, js, color, colorrgba, email, url, numeric, comma_numeric, no_special_chars, unique_slug}',
-    'msg'      => '${5:Error Message if Validate is not correct}',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'validate' => '${5:html, no_html, css, js, color, colorrgba, email, url, numeric, comma_numeric, no_special_chars, unique_slug}',
+    'msg'      => '${6:Error Message if Validate is not correct}',
 ),
 ]]></content>
     <tabTrigger>redux-field-text</tabTrigger>

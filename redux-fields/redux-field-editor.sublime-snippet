@@ -4,11 +4,11 @@
 array(
     'id'       => '${2:id_field}',
     'type'     => 'editor',
-    'title'    => __('${1:Title Field}', '${4:text_domain}'),
-    'subtitle' => __('${2:Subtitle Field}', '${4:text_domain}'),
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${2:Subtitle Field}', '${3:text_domain}'),
     'default'  => '',
     'args'   => array(
-        'teeny'         => ${3:false},
+        'teeny'         => ${4:false},
         'textarea_rows' => 5,
     ),
 ),

@@ -5,7 +5,7 @@ array(
     'id'       => '${2:id_field}',
     'type'     => 'switch',
     'title'    => __('${1:Title Field}', '${3:text_domain}'),
-    'subtitle' => __('${3:Subtitle Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
     'default'  => true,
     'on'       => 'On',
     'off'      => 'Off',

@@ -5,10 +5,10 @@ array(
     'id'       => '${2:id_field}',
     'type'     => 'media',
     'url'      => true,
-    'title'    => __('${1:Title Field}', '${6:text_domain}'),
-    'subtitle' => __('${3:Subtitle Field}', '${6:text_domain}'),
-    'readonly' => ${4:false},
-    'preview'  => ${5:true},
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'readonly' => ${5:false},
+    'preview'  => ${6:true},
     'default'  => array(
         'url'=>''
     ),
