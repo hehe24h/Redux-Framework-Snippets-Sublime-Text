@@ -8,7 +8,7 @@ Some fields to help insert fields on panel using snippets from sublime text
 
 ### Todo
 
-- [ ] Pallet Color
+- [x] ACE Editor
 - [ ] Background
 - [ ] Border
 - [ ] Button Set
@@ -18,12 +18,21 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [ ] Color RGBA
 - [ ] Date
 - [ ] Dimensions
+- [x] Divide
+- [x] Editor
 - [ ] Gallery
 - [ ] Image Select
+- [x] Info
 - [ ] Link Color
+- [x] Media
 - [ ] Multi Text
+- [ ] Pallet Color
 - [ ] Password
 - [ ] Radio
+- [x] Raw
+- [x] Required
+- [x] Section 
+- [x] Select
 - [ ] Select Image
 - [ ] Slider
 - [ ] Slides
@@ -31,22 +40,9 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [ ] Sorter
 - [ ] Spacing
 - [ ] Spinner
+- [x] Switch
+- [x] Text
+- [x] Textarea
 - [ ] Typograhpy
-
-
-### List avaiable snippets
-
-- ACE Editor
-- Divide
-- Editor
-- Info
-- Media
-- Raw
-- Required
-- Section 
-- Select
-- Switch
-- Text
-- Textarea
 
 #### Feel free to contribute :)
