@@ -7,7 +7,7 @@ array(
     'title'    => __('${1:Title Field}', '${3:text_domain}'),
     'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
     'content'  => ${5:file_get_contents(dirname(__FILE__) . '/myfile.txt')},
-)
+),
 ]]></content>
     <tabTrigger>redux-field-raw</tabTrigger>
     <scope>source.php</scope>
