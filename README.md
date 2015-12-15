@@ -44,5 +44,3 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [x] Text
 - [x] Textarea
 - [ ] Typograhpy
-
-#### Feel free to contribute :)
