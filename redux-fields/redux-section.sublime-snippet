@@ -5,8 +5,8 @@
  */
 Redux::setSection( \$opt_name, array(
     'title'      => __( '${1:Title Section}', '${3:text_domain}'),
-    'desc'       => __( '${2:Desription Section}', '${3:text_domain}'),
-    'id'         => '${4:id_section}',
+    'desc'       => __( '${4:Desription Section}', '${3:text_domain}'),
+    'id'         => '${2:id_section}',
     'icon'       => '${5:icon_section}',
     'subsection' => ${6:false},
     'fields'     => array(

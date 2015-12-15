@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'                    => '${2:id_field}',
+    'type'                  => 'background',
+    'title'                 => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle'              => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'output'                => array(),
+    'background-color'      => ${5:true},
+    'background-repeat'     => ${6:true},
+    'background-attachment' => ${7:true},
+    'background-position'   => ${8:true},
+    'background-image'      => ${9:true},
+    'background-size'       => ${10:true},
+    'preview_media'         => ${11:false},
+    'preview'               => ${12:true},
+    'preview_height'        => '${13:200px}',
+    'transparent'           => ${14:true},
+    'default'               => array(),
+),
+]]></content>
+    <tabTrigger>redux-field-background</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

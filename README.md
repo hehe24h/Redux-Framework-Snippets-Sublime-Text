@@ -9,7 +9,7 @@ Some fields to help insert fields on panel using snippets from sublime text
 ### Todo
 
 - [x] ACE Editor
-- [ ] Background
+- [x] Background
 - [ ] Border
 - [ ] Button Set
 - [ ] Checkbox

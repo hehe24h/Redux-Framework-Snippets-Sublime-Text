@@ -5,9 +5,9 @@ array(
     'id'       => '${2:id_field}',
     'type'     => 'editor',
     'title'    => __('${1:Title Field}', '${3:text_domain}'),
-    'subtitle' => __('${2:Subtitle Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
     'default'  => '',
-    'args'   => array(
+    'args'     => array(
         'teeny'         => ${4:false},
         'textarea_rows' => 5,
     ),
