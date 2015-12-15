@@ -12,7 +12,7 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [x] Background
 - [x] Border
 - [x] Button Set
-- [ ] Checkbox
+- [x] Checkbox
 - [ ] Color
 - [ ] Color Gradient
 - [ ] Color RGBA
