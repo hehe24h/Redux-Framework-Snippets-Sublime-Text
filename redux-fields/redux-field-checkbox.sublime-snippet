@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'checkbox',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'data'     => '${5:category, categories, menu, menus, menu_location, menu_locations, page, pages, post, posts, post_type, post_types, tag, tags}',
+
+    //Must provide key => value pairs for multi checkbox options
+    'options'  => array(),
+    'default' => array(),
+),
+]]></content>
+    <tabTrigger>redux-field-checkbox</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

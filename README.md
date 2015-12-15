@@ -10,8 +10,8 @@ Some fields to help insert fields on panel using snippets from sublime text
 
 - [x] ACE Editor
 - [x] Background
-- [ ] Border
-- [ ] Button Set
+- [x] Border
+- [x] Button Set
 - [ ] Checkbox
 - [ ] Color
 - [ ] Color Gradient

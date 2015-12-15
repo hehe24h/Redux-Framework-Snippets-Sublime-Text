@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'button_set',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'multi'    => ${5:false},
+    //Must provide key => value pairs for options
+    'options' => array(
+        '1' => 'Opt 1',
+        '2' => 'Opt 2',
+        '3' => 'Opt 3'
+     ),
+    'default' => array(),
+),
+]]></content>
+    <tabTrigger>redux-field-buttonSet</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
