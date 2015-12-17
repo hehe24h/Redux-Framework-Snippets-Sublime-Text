@@ -6,7 +6,7 @@ Some fields to help insert fields on panel using snippets from sublime text
     <img src="http://i.imgur.com/1r0c5z3.png">
 </a>
 
-All snippets work only inside ```<?php ?>``` because they are config on ```<scope>source.php</scope>``` you can change that, or add more scope using comma ```source.php, source.html...```
+All snippets work only inside ```<?php ?>``` because they are on ```<scope>source.php</scope>``` you can change that, or add more scope using comma ```source.php, source.html...```
 
 ### How to Use
 1. Input redux snippets on path ```%HOMEPATH%\AppData\Roaming\Sublime Text 3\Packages\User```
