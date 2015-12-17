@@ -21,7 +21,7 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [x] Divide
 - [x] Editor
 - [x] Gallery
-- [ ] Image Select
+- [x] Image Select
 - [x] Info
 - [ ] Link Color
 - [x] Media
