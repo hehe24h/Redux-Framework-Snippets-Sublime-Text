@@ -7,7 +7,7 @@ Some fields to help insert fields on panel using snippets from sublime text
 </a>
 
 
-### How to Usage
+### How to Use
 1. Input redux snippets on path ```%HOMEPATH%\AppData\Roaming\Sublime Text 3\Packages\User```
 2. You can use input ```redux-``` word inside a ```<?php ?>``` and sublime shows a list of avaiable snippets
 
