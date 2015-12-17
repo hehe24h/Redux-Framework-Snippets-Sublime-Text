@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'image_select',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'options'  => array(
+        '1'      => array(
+            'alt'   => '1 Column',
+            'img'   => 'URL_IMAGE'
+        ),
+        '2'      => array(
+            'alt'   => '2 Column Left',
+            'img'   => 'URL_IMAGE'
+        ),
+    ),
+    'tiles'   => '${5:false}',
+    'presets' => ${6:false},
+    'default' => '2',
+),
+]]></content>
+    <tabTrigger>redux-field-image-select</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
