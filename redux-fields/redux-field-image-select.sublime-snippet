@@ -17,7 +17,7 @@ array(
         ),
     ),
     'tiles'   => '${5:false}',
-    'presets' => ${6:false},
+    'presets' => ${6:false}, // Flag to permit the use of a JSON string or array to override multiple preferences.
     'default' => '2',
 ),
 ]]></content>
