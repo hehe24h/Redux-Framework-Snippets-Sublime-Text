@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'          => '${2:id_field}',
+    'type'        => 'color',
+    'title'       => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle'    => __('{$4:Subtitle Field}', '${3:text_domain}'),
+    'default'     => '',
+    'validate'    => 'color',
+    'transparent' => ${5:true},
+),
+]]></content>
+    <tabTrigger>redux-field-color</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
