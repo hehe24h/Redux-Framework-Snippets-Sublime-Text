@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'          => '${2:id_field}',
+    'type'        => 'date',
+    'title'       => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle'    => __('${4:Subtitle Field}', '${3:text_domain}'),
+),
+]]></content>
+    <tabTrigger>redux-field-date</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

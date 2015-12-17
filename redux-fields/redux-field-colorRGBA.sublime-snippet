@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'        => '${2:id_field}',
+    'type'      => 'color_rgba',
+    'title'     => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle'  => __("${4:Subtitle Field}', '${3:text_domain}')
+    'default'   => array(
+        'color'     => '#fdfdfd',
+        'alpha'     => 1
+    ),
+
+    // These options display a fully functional color palette.  Omit this argument
+    // for the minimal color picker, and change as desired.
+    'options'       => array(
+        'show_input'                => true,
+        'show_initial'              => true,
+        'show_alpha'                => true,
+        'show_palette'              => true,
+        'show_palette_only'         => false,
+        'show_selection_palette'    => true,
+        'max_palette_size'          => 10,
+        'allow_empty'               => true,
+        'clickout_fires_change'     => false,
+        'choose_text'               => __('${5:Choose}', '${3:text_domain}'),
+        'cancel_text'               => __('${6:Cancel}', '${3:text_domain}'),
+        'show_buttons'              => true,
+        'use_extended_classes'      => true,
+        'palette'                   => null,  // show default
+        'input_text'                => __('${7:Select Color}', '${3:text_domain})',
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-colorRGBA</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

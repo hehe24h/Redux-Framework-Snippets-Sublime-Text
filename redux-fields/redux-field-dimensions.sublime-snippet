@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'dimensions',
+    'units'    => array('em','px','%'),
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'default'  => array(
+        'Width'   => '${5:200}',
+        'Height'  => '${6:100}'
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-dimensions</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

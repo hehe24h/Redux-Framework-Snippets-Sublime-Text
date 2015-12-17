@@ -14,13 +14,13 @@ Some fields to help insert fields on panel using snippets from sublime text
 - [x] Button Set
 - [x] Checkbox
 - [x] Color
-- [ ] Color Gradient
-- [ ] Color RGBA
-- [ ] Date
-- [ ] Dimensions
+- [x] Color Gradient
+- [x] Color RGBA
+- [x] Date
+- [x] Dimensions
 - [x] Divide
 - [x] Editor
-- [ ] Gallery
+- [x] Gallery
 - [ ] Image Select
 - [x] Info
 - [ ] Link Color

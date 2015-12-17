@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'color_gradient',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'validate' => 'color',
+    'default'  => array(
+        'from' => '${5:#1e73be}',
+        'to'   => '${6:#00897e}',
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-color-gradient</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
