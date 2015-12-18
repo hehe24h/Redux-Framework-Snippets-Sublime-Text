@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'link_color',
+    'title'    => __('${1:Title Field}', '${3:text_domain}'),
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'default'  => array(
+        'regular' => '${5:#1e73be}',
+        'hover'   => '${6:#dd3333}',
+        'active'  => '${7:#8224e3}',
+        'visited' => '${8:#8224e3}',
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-link-color</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
