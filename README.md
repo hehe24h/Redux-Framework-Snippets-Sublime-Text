@@ -31,7 +31,7 @@ All snippets work only inside ```<?php ?>``` because they are on ```<scope>sourc
 - [x] Gallery
 - [x] Image Select
 - [x] Info
-- [ ] Link Color
+- [x] Link Color
 - [x] Media
 - [ ] Multi Text
 - [ ] Pallet Color
