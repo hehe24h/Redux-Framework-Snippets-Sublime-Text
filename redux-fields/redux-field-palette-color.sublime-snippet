@@ -1,0 +1,35 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'       => '${2:id_field}',
+    'type'     => 'palette',
+    'title'    => __( '${1:Title Field}', '${3:text_domain}' ),
+    'subtitle' => __( '${4:Subtitle Field}', '${3:text_domain}' ),
+    'default'  => 'red',
+    'palettes' => array(
+        'red'  => array(
+            '#ef9a9a',
+            '#f44336',
+            '#ff1744',
+        ),
+        'pink' => array(
+            '#fce4ec',
+            '#f06292',
+            '#e91e63',
+            '#ad1457',
+            '#f50057',
+        ),
+        'cyan' => array(
+            '#e0f7fa',
+            '#80deea',
+            '#26c6da',
+            '#0097a7',
+            '#00e5ff',
+        ),
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-palette-color</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

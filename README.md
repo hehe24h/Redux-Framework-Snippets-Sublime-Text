@@ -33,9 +33,9 @@ All snippets work only inside ```<?php ?>``` because they are on ```<scope>sourc
 - [x] Info
 - [x] Link Color
 - [x] Media
-- [ ] Multi Text
-- [ ] Pallet Color
-- [ ] Password
+- [x] Multi Text
+- [x] Pallet Color
+- [x] Password
 - [ ] Radio
 - [x] Raw
 - [x] Required

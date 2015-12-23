@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/* ${1:Title Field} */
+array(
+    'id'=>'${2:id_field}',
+    'type' => 'multi_text',
+    'title' => __('${1:Title Field}', '${3:text_domain}'),
+    'validate' => 'color',
+    'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
+    'add_text' => __('${5:Add More}', '${3:text_domain}'),
+    ),
+),
+]]></content>
+    <tabTrigger>redux-field-multi-text</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
