@@ -2,7 +2,7 @@
     <content><![CDATA[
 /* ${1:Title Field} */
 array(
-    'id'       => '${1:id_field}',
+    'id'       => '${2:id_field}',
     'type'     => 'ace_editor',
     'title'    => __('${1:Title Field}', '${3:text_domain}'),
     'subtitle' => __('${4:Subtitle Field}', '${3:text_domain}'),
